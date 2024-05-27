@@ -1,6 +1,2 @@
--- lists all the records of a table 
--- ommiting the "name" that is empty
-SELECT `score`, `name`
-FROM `second_table`
-WHERE `name` IS NOT NULL
-ORDER BY `score` DESC;
+-- a script that lists all records of the table second_table of the database hbtn_0c_0 in your MySQL server.
+SELECT score, name FROM second_table WHERE name IS NOT NULL ORDER BY score DESC;

@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""Fuction to display the rectangel"""
+"""A Rectangle module"""
 
 
 class Rectangle:
-    """Defines a rectangle"""
+    """An empty Rectangle class"""
+
     pass
